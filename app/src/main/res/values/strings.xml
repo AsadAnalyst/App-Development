@@ -93,4 +93,10 @@
     <string name="action_settings">Settings</string>
     <string name="contacts">contacts</string>
     <string name="add_contact">add_contact</string>
+    <string name="home_address">home_address</string>
+    <string name="firstname">firstname</string>
+    <string name="secondname">secondname</string>
+    <string name="phone_number">phone_number</string>
+    <string name="email">email</string>
+    <string name="buttonsavetosql">buttonsavetosql</string>
 </resources>
