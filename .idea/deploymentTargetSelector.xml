@@ -5,19 +5,19 @@
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CardViewMainActivity">
+      <SelectionState runConfigName="NewContactActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CardViewMainActivity (1)">
+      <SelectionState runConfigName="NewContactActivity (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CardViewMainActivity (2)">
+      <SelectionState runConfigName="SQLiteMainActivity">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CardViewMainActivity (3)">
+      <SelectionState runConfigName="SQLiteMainActivity (1)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
-      <SelectionState runConfigName="CardViewMainActivity (4)">
+      <SelectionState runConfigName="SQLiteMainActivity (2)">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
