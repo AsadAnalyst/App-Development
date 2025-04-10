@@ -1,4 +1,4 @@
-daaaasasspackage com.example.appdevelopment.SQLiteExample;
+adaaaasasspackage com.example.appdevelopment.SQLiteExample;
 
 import android.content.ContentValues;
 import android.content.Context;
