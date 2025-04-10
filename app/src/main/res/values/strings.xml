@@ -99,4 +99,10 @@
     <string name="phone_number">phone_number</string>
     <string name="email">email</string>
     <string name="buttonsavetosql">buttonsavetosql</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment" />
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_frag">Second Frag</string>
+    <string name="main_activity">Main Activity</string>
 </resources>
