@@ -1,5 +1,7 @@
 package com.example.appdevelopment.BroadcastExample;
 
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -12,6 +14,9 @@ import com.example.appdevelopment.R;
 
 public class BroadcastExample1 extends AppCompatActivity {
 
+    AiroplaneModeBroadcast obj =new AiroplaneModeBroadcast();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,5 +27,19 @@ public class BroadcastExample1 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        IntentFilter intentFilter=new IntentFilter(Intent.ACTION_AIRPLANE_MODE_CHANGED);
+        registerReceiver(obj,intentFilter);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        unregisterReceiver(obj);
     }
 }
